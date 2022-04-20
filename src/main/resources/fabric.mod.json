@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "suppress",
+  "version": "${version}",
+
+  "name": "Suppress Update Again",
+  "description": "Make Update Suppressed Again!",
+  "authors": [
+    "BadCodeBuilder"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/badcodebuilder/suppress-update-again"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/suppress/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "pub.bcb.MainMod"
+    ]
+  },
+  "mixins": [
+    "suppress.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "minecraft": "1.19.*",
+    "java": ">=17"
+  }
+}
